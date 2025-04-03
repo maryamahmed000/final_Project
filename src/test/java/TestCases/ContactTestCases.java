@@ -18,7 +18,7 @@ public class ContactTestCases extends BaseTest{
         contactPage = new ContactPage(baseDriver); // قم بتمرير driver أثناء الإنشاء
     }
 
-    //----------------------------------------------- Contact ----------------------------------------------
+    //------------------------------------------------ Contact -----------------------------------------------
     @DataProvider(name = "ContactData")
     public Object[][] getContactData() throws IOException, InvalidFormatException {
         return ExcelUtils.readExcelData("D:\\Testing\\Technical\\Java\\Projects\\AbdullahDemoblazeContact\\excelData.xlsx", "Sheet3");
