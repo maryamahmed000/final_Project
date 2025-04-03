@@ -1,28 +1,34 @@
-package testcases;
+package TestCases;
+<<<<<<< HEAD
 
+=======
+>>>>>>> AbdullahContactFeature
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
-    protected WebDriver base_driver;
 
+    public WebDriver baseDriver;
 
+    @BeforeSuite
+    public void beforeClass(){
+        baseDriver = new ChromeDriver();
+        baseDriver.manage().window().maximize();
+        baseDriver.get("https://www.demoblaze.com/");
 
-    @BeforeMethod
-    public void setup() {
-        WebDriverManager.chromedriver().setup();
-        base_driver = new ChromeDriver();
-        base_driver.manage().window().maximize();
-        base_driver.get("https://www.demoblaze.com/");
     }
 
-    @AfterMethod
-    public void tearDown() {
-        if (base_driver != null) {
-            base_driver.quit();
+    @AfterSuite
+    public void afterClass(){
+        if (baseDriver != null) {
+            baseDriver.quit();
         }
     }
+
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> AbdullahContactFeature
