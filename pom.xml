@@ -5,15 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <artifactId>Final-project-DEPI</artifactId>
-=======
-    <artifactId>AbdullahDemoblazeContact</artifactId>
->>>>>>> AbdullahContactFeature
-=======
-    <artifactId>Final-project-DEPI</artifactId>
->>>>>>> 4e5c70ef603dcd7959d04f845fb772332aead0f9
+    <artifactId>GraduationProject3</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -23,46 +15,14 @@
     </properties>
 
     <dependencies>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-        <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
-=======
         <!--Selenium-->
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
->>>>>>> AbdullahContactFeature
-=======
-
-        <!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
->>>>>>> 4e5c70ef603dcd7959d04f845fb772332aead0f9
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.28.1</version>
         </dependency>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e5c70ef603dcd7959d04f845fb772332aead0f9
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.11.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>3.9</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>3.9</version>
-<<<<<<< HEAD
-=======
         <!--TestNG-->
         <dependency>
             <groupId>org.testng</groupId>
@@ -75,10 +35,8 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>5.2.3</version>
->>>>>>> AbdullahContactFeature
-=======
->>>>>>> 4e5c70ef603dcd7959d04f845fb772332aead0f9
         </dependency>
     </dependencies>
+
 
 </project>
